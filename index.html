@@ -9,6 +9,37 @@
   href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
+    <style>
+        #loading{
+            background: #ffffff url(https://rahulgavhar.github.io/hexxcars/images/loading.gif) no-repeat center center;
+            height: 100vh;
+            width: 100%;
+            position: fixed;
+            background-size: 15%;
+            z-index: 10000000;
+        }
+        @media only screen and (max-width: 750px) {
+            #loading{
+                height: 100vh;
+                background-size: 10%;
+            }
+        }
+    </style>
+    <script>
+        const lc='<div id="loading"></div>';
+        document.body.insertAdjacentHTML("afterbegin",lc);
+        const preloader=document.getElementById("loading");
+        document.onreadystatechange = function() {
+      
+    if (document.readyState !== "complete") {
+        preloader.style.visibility = "visible";
+        document.querySelector("body").style.visibility = "hidden";
+    } else {
+        document.querySelector("body").style.visibility = "visible";
+        preloader.style.visibility = "hidden";
+    }
+};
+    </script>
     <header>
         <a href="#" class="logo"><img src="https://rahulgavhar.github.io/hexxcars/images/jeep1.png" alt="Jeep"></a>
         <div class="bx bx-menu" id="menu-icon"></div>
@@ -28,10 +59,10 @@
 
     <section class="home" id="home">
         <div class="text">
-            <h1>
-                <span>Looking</span> to <br style="margin: 1px;">rent a car?<br>
+            <h1 style="line-height:97%;">
+                <span>Looking</span> to <br>rent a car?<br>
             </h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, blanditiis? Recusandae pariatur qui deleniti? Cum, molestiae ad dolores </p>
+            <p style="margin-top:3%">Flexible Bookings & No Hidden Fees, Secure Your Car Rental at The Best Price Now. Unbeatable Prices. Book a Car Now.</p>
             <div class="app-stores">
                 <img src="https://rahulgavhar.github.io/hexxcars/images/ios.png" alt="">
                 <img src="https://rahulgavhar.github.io/hexxcars/images/512x512.png" alt="">
@@ -65,19 +96,19 @@
             <div class="box">
                 <i class="bx bxs-map"></i>
                 <h2>Choose a Location</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                <p>We are Available in all the major cities.</p>
             </div>
 
             <div class="box">
                 <i class="bx bxs-calendar-check"></i>
                 <h2>Pick-Up Date</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                <p>Set any Date according to your Convinience. Pre Order is recommended for Specific Car choices.</p>
             </div>
 
             <div class="box">
                 <i class="bx bxs-calendar-star"></i>
                 <h2>Book a Car</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                <p>Fill your Information in seconds & Finally Select the Car.</p>
             </div>
         </div>
     </section>
@@ -139,7 +170,7 @@
                 </div>
                 <p>2013</p>
                 <h3>2012 Porche</h3>
-                <h2>INR 3,23,000 | INR 89,600<span>/month</span></h2>
+                <h2>INR 3,23,00,000 | INR 89,600<span>/month</span></h2>
                 <a href="#" class="btn">Rent Now</a>
             </div>
         </div>
@@ -155,8 +186,7 @@
             </div>
             <div class="about-text">
                 <span>About Us</span>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum repellat, distinctio voluptate rem hic dolorem, sunt ullam aperiam non modi iusto ea cumque excepturi fugit quisquam atque illum veniam! Laboriosam!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum repellat, distinctio voluptate rem hic dolorem, sunt ullam aperiam non modi iusto ea cumque excepturi fugit quisquam atque illum veniam! Laboriosam!</p>
+                <p>HexxCars is a self drive brand owned by ORIX, Japan’s second largest self drive car rental company currently managing more than 63,000 cars in our fleet in Japan. With HexxCars, we endeavor to provide Indian users the Best in World Japanese service and technology at Indian prices. We are currently present in 16 Indian cities including Bangalore, Pune, Mumbai, Delhi-NCR, Hyderabad, Chennai, Kolkata, Jaipur, Jodhpur, Indore, Chandigarh, Amritsar, Dehradun, Rishikesh, Haridwar.and Udaipur.</p>
                 <a href="#" class="btn">Learn More</a>
             </div>
         </div>
@@ -179,7 +209,7 @@
                     <i class="bx bxs-star"></i>
                     <i class="bx bxs-star-half"></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate impedit nisi, illum, saepe accusantium reprehenderit eos sequi, optio pariatur at repellendus? Mollitia aspernatur enim autem corporis sapiente expedita qui nobis!</p>
+                <p>At first I wasnt Sure if I would get a decent Car. I was amazed when I used the Car. Really Loved their Service.</p>
             </div>
             <div class="box">
                 <div class="rev-img">
@@ -193,7 +223,7 @@
                     <i class="bx bxs-star"></i>
                     <i class="bx bxs-star-half"></i>
                 </div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta officiis dolorum consequuntur natus. Dicta quidem quod, sequi cumque nam, incidunt accusantium iusto quisquam facilis culpa dolorum nesciunt ea, illum soluta.</p>
+                <p>I had an Amazing Experience with My Nissan. The prices are Reasonable. I think there is no more need to buy a New Car.</p>
             </div>
             <div class="box">
                 <div class="rev-img">
@@ -207,7 +237,7 @@
                     <i class="bx bxs-star"></i>
                     <i class="bx bxs-star-half"></i>
                 </div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti architecto, voluptate, nam ex, cum dolores quam fugiat unde perferendis aut modi a optio temporibus cupiditate vero adipisci odit doloribus laudantium.</p>
+                <p>Good service & car in good conditions, Always.. Even there are minimal fines on Damages.</p>
             </div>
             
         </div>
