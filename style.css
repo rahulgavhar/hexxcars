@@ -341,7 +341,7 @@ header{
     border-radius: 0.5rem;
     padding: 4px 8px;
     display: flex;
-    width: 350px;
+    width: 100%;
     justify-content: space-between;
 }
 .newsletter .box input{
@@ -414,7 +414,7 @@ header{
         text-align: left;
     }
     .navbar.active{
-        top: 7.5%;
+        top: 10vh;
     }
     .navbar a{
         padding: 1rem;
@@ -449,6 +449,9 @@ header{
 }
 
 @media (max-width:350px){
+    .navbar.active{
+        top: 7.5vh;
+    }
     header{
         padding:6px 14px;
     }
