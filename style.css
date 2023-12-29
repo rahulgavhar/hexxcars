@@ -452,6 +452,9 @@ header{
 }
 
 @media (max-width:350px){
+    .newsletter .box {
+        justify-content:center;
+    }
     header{
         padding:6px 14px;
     }
