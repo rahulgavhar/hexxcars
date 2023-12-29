@@ -44,11 +44,11 @@
         document.onreadystatechange = function() {
       
     if (document.readyState !== "complete") {
-        preloader.style.visibility = "visible";
-        document.querySelector("body").style.visibility = "hidden";
+	    document.querySelector("body").style.visibility = "hidden";
+            preloader.style.visibility = "visible";
     } else {
-        document.querySelector("body").style.visibility = "visible";
-        preloader.style.visibility = "hidden";
+	    preloader.style.visibility = "hidden";
+            document.querySelector("body").style.visibility = "visible";
     }
 };
     </script>
