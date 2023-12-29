@@ -12,7 +12,7 @@
 <body>
     <style>
         @media only screen and (max-width: 520px) {
-	        body{
+	        .home{
                 margin-top:10%;
             }
         }
@@ -44,11 +44,11 @@
         document.onreadystatechange = function() {
       
     if (document.readyState !== "complete") {
-	    document.querySelector("body").style.display = "none";
+	    document.querySelector("body").style.visibility = "hidden";
             preloader.style.visibility = "visible";
     } else {
 	    preloader.style.visibility = "hidden";
-            document.querySelector("body").style.display = "block";
+            document.querySelector("body").style.visibility = "visible";
     }
 };
     </script>
