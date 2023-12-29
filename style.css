@@ -341,7 +341,7 @@ header{
     border-radius: 0.5rem;
     padding: 4px 8px;
     display: flex;
-    width: 350vh;
+    width: 350px;
     justify-content: space-between;
 }
 .newsletter .box input{
