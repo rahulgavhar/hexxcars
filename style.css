@@ -443,18 +443,12 @@ header{
     }
 }
 @media (max-width:568px){
-    .newsletter .box{
-        width:284px;
-    }
     .form-container{
         padding-top: 2rem;
     }
 }
 
 @media (max-width:350px){
-    .newsletter .box {
-        justify-content:center;
-    }
     header{
         padding:6px 14px;
     }
