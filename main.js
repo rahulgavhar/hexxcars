@@ -25,3 +25,8 @@ sr.reveal('.text',{
 sr.reveal('.form-container form',{
     delay:200, origin:'left'
 });
+
+//disable right click
+document.addEventListener("contextmenu", function(e){
+        e.preventDefault();
+    }, false);
