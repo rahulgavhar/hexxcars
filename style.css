@@ -339,7 +339,7 @@ header{
     margin:1rem;
     background: #fff;
     border-radius: 0.5rem;
-    padding: 4px 8px;
+    padding: 4px 4px 4px 8px;
     display: flex;
     width: 350px;
     justify-content: space-between;
