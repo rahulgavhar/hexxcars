@@ -450,7 +450,7 @@ header{
 
 @media (max-width:350px){
     .navbar.active{
-        top: 7.5vh;
+        top: 7vh;
     }
     header{
         padding:6px 14px;
