@@ -415,7 +415,7 @@ header{
         text-align: left;
     }
     .navbar.active{
-        top: 9.5vh;
+        top: 9vh;
     }
     .navbar a{
         padding: 1rem;
