@@ -32,8 +32,8 @@
         }
         @media only screen and (min-width: 750px) {
             #loading{
-                height: 100vh;
-                background-size: 10%;
+                height: 100%;
+                background-size: 15%;
             }
         }
     </style>
@@ -44,11 +44,11 @@
         document.onreadystatechange = function() {
       
     if (document.readyState !== "complete") {
-	    document.querySelector("body").style.visibility = "hidden";
+	    document.querySelector("body").style.display = "none";
             preloader.style.visibility = "visible";
     } else {
 	    preloader.style.visibility = "hidden";
-            document.querySelector("body").style.visibility = "visible";
+            document.querySelector("body").style.display = "block";
     }
 };
     </script>
