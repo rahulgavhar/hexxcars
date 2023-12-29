@@ -341,11 +341,12 @@ header{
     border-radius: 0.5rem;
     padding: 4px 8px;
     display: flex;
-    width: 100%;
+    width: 350vh;
     justify-content: space-between;
 }
 .newsletter .box input{
     border: none;
+    width:100%;
     outline: none;
 }
 .newsletter .box .btn{
@@ -414,7 +415,7 @@ header{
         text-align: left;
     }
     .navbar.active{
-        top: 10vh;
+        top: 9.5vh;
     }
     .navbar a{
         padding: 1rem;
@@ -446,11 +447,14 @@ header{
     .form-container{
         padding-top: 2rem;
     }
+    .newsletter .box{
+        width:100%;
+    }
 }
 
 @media (max-width:350px){
     .navbar.active{
-        top: 7vh;
+        top: 7.5vh;
     }
     header{
         padding:6px 14px;
