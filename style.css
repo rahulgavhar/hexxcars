@@ -477,3 +477,8 @@ header{
         grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     }
 }
+@media (min-width:350px) and (max-width:430px){
+    section.home{
+        padding-top:30px;
+    }
+}
