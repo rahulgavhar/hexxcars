@@ -74,6 +74,7 @@ header{
     cursor:pointer;
     z-index: 10001;
     display: none;
+    cursor:none;
 }
 .header-btn a{
     color: var(--text-color);
