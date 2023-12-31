@@ -404,7 +404,7 @@ header{
         position: unset;
     }
     header .navbar{
-        position: fixed;
+        position: absolute;
         top: -500px;
         left: 0;
         right: 0;
@@ -416,7 +416,7 @@ header{
         text-align: left;
     }
     .navbar.active{
-        top: 9vh;
+        top: 100%;
     }
     .navbar a{
         padding: 1rem;
